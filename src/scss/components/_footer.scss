@@ -86,3 +86,35 @@ footer {
     margin-bottom: 32px;
   }
 }
+
+.progress {
+  background: #d8d8d8;
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  margin-top: 8px;
+}
+
+.progress-done1 {
+  background: linear-gradient(to left, #f2709c, #ff9472);
+  border-radius: 20px;
+  height: 30px;
+  width: 66px;
+  margin-top: 8px;
+}
+
+.progress-done2 {
+  background: linear-gradient(to left, #f2709c, #ff9472);
+  border-radius: 20px;
+  height: 30px;
+  width: 132px;
+  margin-top: 8px;
+}
+
+.progress-done3 {
+  background: linear-gradient(to left, #f2709c, #ff9472);
+  border-radius: 20px;
+  height: 30px;
+  width: 200px;
+  margin-top: 8px;
+}

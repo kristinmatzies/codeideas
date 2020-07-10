@@ -12,6 +12,7 @@
       rel="stylesheet"
     />
     <link rel="stylesheet" href="scss/styles.scss" />
+    <script defer src="main.js"></script>
     <title>Challenge</title>
   </head>
   <body>
@@ -31,13 +32,15 @@
       </section>
     </header>
     <section class="main-container">
-      <h1>Always Look On The Bright Side Of Life</h1>
-      <p>
-        In efforts to expand our horizons, we welcome every investment-minded
-        individual to join us in the Condotel Investment Opportunity.
-      </p>
-      <button type="submit" class="button">Apply Now</button>
-      <button class="info-button">Info</button>
+      <section class="text-container">
+        <h1>Always Look On The Bright Side Of Life</h1>
+        <p>
+          In efforts to expand our horizons, we welcome every investment-minded
+          individual to join us in the Condotel Investment Opportunity.
+        </p>
+        <button type="submit" class="button">Apply Now</button>
+        <button class="info-button">Info</button>
+      </section>
     </section>
     <h2 class="container-headline">Articles, Info and Trust-Elements</h2>
     <section class="image-container">
@@ -143,11 +146,31 @@
       <br />
       <hr />
       <form>
-        <label for="newsletter">Newsletter</label>
+        <label for="newsletter">Sign up for our Newsletter</label>
         <section>
-          <input type="text" placeholder="E-Mail-Address" />
+          <input
+            type="text"
+            placeholder="First name"
+            required
+            name="first-input"
+          />
+          <input
+            type="text"
+            placeholder="Last name"
+            required
+            id="second-input"
+          />
+          <input
+            type="text"
+            placeholder="E-Mail-Address"
+            required
+            id="third-input"
+          />
           <button type="submit" class="newsletter-button">Send</button>
         </section>
+        <div class="progress">
+          <div id="progress-active"></div>
+        </div>
       </form>
       <section class="social-container">
         <h4>Follow us</h4>
