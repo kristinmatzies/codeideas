@@ -16,100 +16,103 @@
   </head>
   <body>
     <header>
-      <img src="img/burger_icon.png" alt="menu" />
       <nav>
+        <img src="img/burger_icon.png" alt="menu" class="menu-icon" />
         <a href="#">Home</a>
         <a href="#">About</a>
         <a href="#">Contact</a>
         <a href="#kontakt">Kontakt</a>
       </nav>
-      <img src="img/logo.png" alt="logo" />
-      <form>
-        <input type="text" placeholder="Suche" />
-      </form>
+      <section class="search">
+        <img src="img/logo.png" alt="logo" class="logo" />
+        <form>
+          <input type="text" placeholder="Suche" class="search-field" />
+        </form>
+      </section>
     </header>
-
-    <section>
+    <section class="main-container">
       <h1>Always Look On The Bright Side Of Life</h1>
       <p>
         In efforts to expand our horizons, we welcome every investment-minded
         individual to join us in the Condotel Investment Opportunity.
       </p>
-      <button type="submit">Apply Now</button>
-      <button>Info</button>
+      <button type="submit" class="button">Apply Now</button>
+      <button class="info-button">Info</button>
     </section>
-    <section>
-      <h2>Articles, Info and Trust-Elements</h2>
+    <h2 class="container-headline">Articles, Info and Trust-Elements</h2>
+    <section class="image-container">
       <section>
-        <img src="img/image_1.jpg" alt="" />
+        <img src="img/image_1.jpg" alt="" class="image-grid" />
         <h3>Comment On The Importance Of Human Life</h3>
         <p>
           Never hire the first vendor you meet. You should always make your
           decision based on several vendors.
         </p>
-        <button>Read More</button>
+        <button class="container-button">Read More</button>
       </section>
       <section>
-        <img src="img/image_2.jpg" alt="" />
+        <img src="img/image_2.jpg" alt="" class="image-grid" />
         <h3>Dude You Re Getting A Telescope</h3>
         <p>
           Your wedding guests will appreciate the savings, and you might save on
           your plane ticket to your honeymoon destination.
         </p>
-        <button>Read More</button>
+        <button class="container-button">Read More</button>
       </section>
       <section>
-        <img src="img/image_3.jpg" alt="" />
+        <img src="img/image_3.jpg" alt="" class="image-grid" />
         <h3>Comment On The Importance Of Human Life</h3>
         <p>
           Never hire the first vendor you meet. You should always make your
           decision based on several vendors.
         </p>
-        <button>Read More</button>
+        <button class="container-button">Read More</button>
       </section>
       <section>
-        <img src="img/image_4.jpg" alt="" />
+        <img src="img/image_4.jpg" alt="" class="image-grid" />
         <h3>Dude You Re Getting A Telescope</h3>
         <p>
           Your wedding guests will appreciate the savings, and you might save on
           your plane ticket to your honeymoon destination.
         </p>
-        <button>Read More</button>
+        <button class="container-button">Read More</button>
       </section>
     </section>
-    <section>
-      <p>Consulting Services</p>
-      <h2>You wish to have a personal consulting?</h2>
-      <section>
-        <img src="img/default_img_small.png" alt="" />
-        <p>Personal Consultant</p>
-        <p>
-          The world’s best imaging and design app is at the core of almost every
-          creative project.
-        </p>
-        <button>Button</button>
-      </section>
-      <section>
-        <img src="img/default_img_small.png" alt="" />
-        <p>Chatbot</p>
-        <p>
-          The world’s best imaging and design app is at the core of almost every
-          creative project.
-        </p>
-        <button>Button</button>
-      </section>
-      <section>
-        <img src="img/default_img_small.png" alt="" />
-        <p>Contact Form</p>
-        <p>
-          The world’s best imaging and design app is at the core of almost every
-          creative project.
-        </p>
-        <button>Button</button>
+    <section class="services">
+      <h2 class="">Consulting Services</h2>
+      <h3>You wish to have a personal consulting?</h3>
+      <section class="services-grid">
+        <section>
+          <img src="img/default_img_small.png" alt="" />
+          <h4>Personal Consultant</h4>
+          <p>
+            The world’s best imaging and design app is at the core of almost
+            every creative project.
+          </p>
+          <button class="container-button">Button</button>
+        </section>
+        <section>
+          <img src="img/default_img_small.png" alt="" />
+          <h4>Chatbot</h4>
+          <p>
+            The world’s best imaging and design app is at the core of almost
+            every creative project.
+          </p>
+          <button class="container-button">Button</button>
+        </section>
+        <section>
+          <img src="img/default_img_small.png" alt="" />
+          <h4>Contact Form</h4>
+          <p>
+            The world’s best imaging and design app is at the core of almost
+            every creative project.
+          </p>
+          <button class="container-button">Button</button>
+        </section>
       </section>
     </section>
     <footer>
-      <img src="img/logo_xl.png" alt="logo" />
+      <img src="img/logo_xl.png" alt="logo" class="footer-logo" />
       <section>
         <h4>Insurance</h4>
         <a href="#">Traveling</a>
@@ -138,15 +141,22 @@
         <a href="#">Social Media</a>
       </section>
       <br />
+      <hr />
       <form>
         <label for="newsletter">Newsletter</label>
-        <input type="submit" placeholder="E-mail Adress" />
-        <button type="submit">Send</button>
+        <section>
+          <input type="text" placeholder="E-Mail-Address" />
+          <button type="submit" class="newsletter-button">Send</button>
+        </section>
       </form>
-      <p>Follow us</p>
-      <img src="img/facebook.png" alt="facebook" />
-      <img src="img/google.png" alt="google" />
-      <img src="img/twitter.png" alt="twitter" />
+      <section class="social-container">
+        <h4>Follow us</h4>
+        <section class="social-icons">
+          <img src="img/facebook.png" alt="facebook" />
+          <img src="img/google.png" alt="google" />
+          <img src="img/twitter.png" alt="twitter" />
+        </section>
+      </section>
     </footer>
   </body>
 </html>

@@ -1,0 +1,52 @@
+.container-headline {
+  font-size: 32px;
+  font-weight: normal;
+  line-height: 1.25;
+  text-align: center;
+}
+
+.image-container {
+  display: grid;
+
+  @media (min-width: 768px) {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  section {
+    margin-bottom: 12px;
+  }
+
+  h3 {
+    font-size: 20px;
+    line-height: 1.35;
+    margin: 0;
+  }
+
+  p {
+    font-size: 16px;
+    line-height: 1.63;
+  }
+}
+
+.container-button {
+  width: 133px;
+  height: 40px;
+  border-radius: 4px;
+  background-color: $primary-color;
+  border: none;
+  color: white;
+  font-weight: 500;
+  letter-spacing: 2px;
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.image-grid {
+  width: 100%;
+
+  @media (min-width: 768px) {
+    width: 470px;
+    height: 231px;
+    object-fit: contain;
+  }
+}
