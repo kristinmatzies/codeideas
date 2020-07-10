@@ -1,0 +1,15 @@
+$font-color: #0f2522;
+$primary-color: #00a2b3;
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: $font-color;
+}
+
+p {
+  margin-top: 40px;
+}
